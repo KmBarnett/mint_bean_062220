@@ -1,3 +1,11 @@
 .SearchForm {
   height: 10%;
 }
+
+.SearchForm button {
+  margin-left: 1rem;
+}
+
+.SearchForm input {
+  padding: 0.25rem;
+}
