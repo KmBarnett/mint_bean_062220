@@ -27,12 +27,20 @@ function SearchForm({searchUsers}) {
     setErrorMsg('')
     searchUsers(name)
   }
+
+  const handleEnter = (e) => {
+    if (e.keyCode === 13) {
+      handleClick(e)
+    }
+  }
+
   return (
     <form onSubmit={(e) => e.preventDefault()} className="SearchForm">
       <p>{errorMsg}</p>
       <input
         value={name}
         onChange={(e) => setName(e.target.value)}
+        onKeyDown={(e) => handleEnter(e)}
         type='text'
         placeholder='User'
       />
