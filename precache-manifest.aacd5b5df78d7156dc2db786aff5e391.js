@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7055ed4a65bfdda2059e03f87b97afbe",
+    "revision": "c126f7c2726407441d19a07685a89639",
     "url": "/MintBean_0622/index.html"
   },
   {
