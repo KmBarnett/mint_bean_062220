@@ -26,7 +26,11 @@ function SearchDisplay({user, repos}) {
         <img src={user.avatar_url} alt='User Avatar' />
         <h2>{user.login}</h2>
         <section>
-          <p>Homepage: {user.html_url}</p>
+          <p>Home Page:
+            <a className='user-url' href={user.html_url} target="_blank">
+              {user.html_url}
+            </a>
+          </p>
           {user.email ? <p>Email: {user.email}</p> : <p>Email: N/A</p>}
           {user.hireable ? <p>Hireable: Yes</p> : <p>Hireable: No</p>}
         </section>

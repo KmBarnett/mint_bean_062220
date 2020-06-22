@@ -13,7 +13,6 @@
 .App img {
   width: 400px;
   border-radius: 100%;
-  margin-top: 20%;
 }
 
 .App article,
@@ -22,7 +21,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 90%;
 }
 
 /* Add this attribute to the element that needs a tooltip */
