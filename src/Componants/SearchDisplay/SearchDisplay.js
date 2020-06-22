@@ -23,8 +23,8 @@ function SearchDisplay({user, repos}) {
   return (
     <article className="SearchDisplay">
       <header className='SearchDisplay-header'>
-        <h2>{user.login}</h2>
         <section>
+          <h2>{user.login}</h2>
           <p>Home Page:
             <a className='user-url' href={user.html_url} target="_blank">
               {user.html_url}
