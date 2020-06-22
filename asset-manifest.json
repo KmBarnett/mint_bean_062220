@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mint_bean_062220/static/css/main.8ffde528.chunk.css",
-    "main.js": "/mint_bean_062220/static/js/main.be1ce396.chunk.js",
-    "main.js.map": "/mint_bean_062220/static/js/main.be1ce396.chunk.js.map",
+    "main.css": "/mint_bean_062220/static/css/main.85c87375.chunk.css",
+    "main.js": "/mint_bean_062220/static/js/main.246d7c5b.chunk.js",
+    "main.js.map": "/mint_bean_062220/static/js/main.246d7c5b.chunk.js.map",
     "runtime-main.js": "/mint_bean_062220/static/js/runtime-main.8377e0dd.js",
     "runtime-main.js.map": "/mint_bean_062220/static/js/runtime-main.8377e0dd.js.map",
     "static/js/2.eab3f23b.chunk.js": "/mint_bean_062220/static/js/2.eab3f23b.chunk.js",
     "static/js/2.eab3f23b.chunk.js.map": "/mint_bean_062220/static/js/2.eab3f23b.chunk.js.map",
     "index.html": "/mint_bean_062220/index.html",
-    "precache-manifest.9ebef36843b4770c1801867b0b392ad1.js": "/mint_bean_062220/precache-manifest.9ebef36843b4770c1801867b0b392ad1.js",
+    "precache-manifest.fe9cc55a4131e9bb8f9d9e4ba6bfddda.js": "/mint_bean_062220/precache-manifest.fe9cc55a4131e9bb8f9d9e4ba6bfddda.js",
     "service-worker.js": "/mint_bean_062220/service-worker.js",
-    "static/css/main.8ffde528.chunk.css.map": "/mint_bean_062220/static/css/main.8ffde528.chunk.css.map",
+    "static/css/main.85c87375.chunk.css.map": "/mint_bean_062220/static/css/main.85c87375.chunk.css.map",
     "static/js/2.eab3f23b.chunk.js.LICENSE.txt": "/mint_bean_062220/static/js/2.eab3f23b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8377e0dd.js",
     "static/js/2.eab3f23b.chunk.js",
-    "static/css/main.8ffde528.chunk.css",
-    "static/js/main.be1ce396.chunk.js"
+    "static/css/main.85c87375.chunk.css",
+    "static/js/main.246d7c5b.chunk.js"
   ]
 }
