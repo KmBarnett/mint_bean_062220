@@ -23,6 +23,10 @@
   flex-direction: column;
 }
 
+button {
+  padding: 0.25rem;
+}
+
 /* Add this attribute to the element that needs a tooltip */
 [data-tooltip] {
   position: relative;
