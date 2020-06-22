@@ -12,11 +12,6 @@
   font-size: 1.5rem;
 }
 
-.SearchDisplay header {
-  font-size: 1.5rem;
-  padding-top: 40%;
-}
-
 .SearchDisplay {
   overflow-x: scroll;
   padding: 2% 0;

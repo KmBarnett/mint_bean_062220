@@ -23,7 +23,6 @@ function SearchDisplay({user, repos}) {
   return (
     <article className="SearchDisplay">
       <header className='SearchDisplay-header'>
-        <img src={user.avatar_url} alt='User Avatar' />
         <h2>{user.login}</h2>
         <section>
           <p>Home Page:
@@ -35,6 +34,7 @@ function SearchDisplay({user, repos}) {
           {user.hireable ? <p>Hireable: Yes</p> : <p>Hireable: No</p>}
         </section>
       </header>
+      <img src={user.avatar_url} alt='User Avatar' />
       <section className='repos'>
         <h3>Most Recent Repos:</h3>
         <section className='repo-links'>
