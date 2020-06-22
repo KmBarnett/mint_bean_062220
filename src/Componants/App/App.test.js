@@ -2,8 +2,19 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+function renderSearchForm() {
+  const utils = render(
+      <App />
+ )
+  return utils
+}
+
+describe('App', () => {
+  it('Renders App', () => {
+    const { getByText } = renderSearchForm()
+
+    const title = getByText('GitSearch')
+
+    expect(title).toBeInTheDocument()
+  })
+})
