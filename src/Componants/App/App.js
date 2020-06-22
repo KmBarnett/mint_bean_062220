@@ -5,6 +5,7 @@ import './App.css';
 
 function App() {
   const [results, setResults] = useState({})
+  const [repos, setRepos] = useState([])
   const [notFoundMessage, setNotFoundMessage] = useState('')
 
 
@@ -28,10 +29,26 @@ function App() {
     )
   }
 
+  const fetchRepos = async url => {
+    try {
+      const res = await fetch(url)
+      const data = await res.json()
+      setRepos(await data)
+    } catch (e) {
+      console.log(e.status);
+    }
+  }
+
   useEffect(() => {
-    console.log(results);
-    console.log(notFoundMessage);
-  }, [results, notFoundMessage])
+    if (results.repos_url) {
+      fetchRepos(results.repos_url)
+    }
+    console.log(results.repos_url);
+  }, [results])
+
+  useEffect(() => {
+    console.log(repos);
+  }, [repos])
 
 
 
@@ -39,7 +56,7 @@ function App() {
     <main className="App">
         <h1 className="App-header">GitSearch</h1>
         <SearchForm searchUsers={searchUsers} />
-        {results.login && <SearchDisplay user={results}/>}
+        {results.login && <SearchDisplay user={results} repos={repos}/>}
         {results.message && notFound()}
     </main>
   );

@@ -1,0 +1,18 @@
+.SearchDisplay .repo-links {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.SearchDisplay {
+  height: 70%;
+  overflow-x: scroll;
+  padding: 2% 0;
+}
+
+.SearchDisplay .repo-link {
+  margin: 1%;
+}
+.repo-link button {
+  padding: 0.25rem;
+}

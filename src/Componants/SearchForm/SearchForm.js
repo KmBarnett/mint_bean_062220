@@ -28,7 +28,7 @@ function SearchForm({searchUsers}) {
     searchUsers(name)
   }
   return (
-    <form className="SearchForm">
+    <form onSubmit={(e) => e.preventDefault()} className="SearchForm">
       <p>{errorMsg}</p>
       <input
         value={name}
