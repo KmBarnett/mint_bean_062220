@@ -1,14 +1,22 @@
-import React from 'react';
-
+import React, {useState} from 'react';
+import SearchForm from './../SearchForm/SearchForm.js'
 import './App.css';
 
 function App() {
+  const [results, setResults] = useState({})
+
+  const searchUsers = async query => {
+    const res = await fetch(`https://api.github.com/users/${query}`)
+    const data = await res.json()
+    setResults(data)
+    console.log(results);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>MintBean_0622</h1>
-      </header>
-    </div>
+    <main className="App">
+        <h1 className="App-header">GitStalk</h1>
+        <SearchForm searchUsers={searchUsers} />
+    </main>
   );
 }
 
