@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ddcfbc9eed48cca679b5819a060f80d9",
+    "revision": "bb7c58d6f2ebbe208207fc3c6892017b",
     "url": "/mint_bean_062220/index.html"
   },
   {
-    "revision": "95adeb1a0acf6369fb82",
-    "url": "/mint_bean_062220/static/css/main.85c87375.chunk.css"
+    "revision": "48fba398e67b1c989c4b",
+    "url": "/mint_bean_062220/static/css/main.71e2df95.chunk.css"
   },
   {
     "revision": "2c05b268a21dd181cc40",
@@ -16,11 +16,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mint_bean_062220/static/js/2.eab3f23b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "95adeb1a0acf6369fb82",
-    "url": "/mint_bean_062220/static/js/main.246d7c5b.chunk.js"
+    "revision": "48fba398e67b1c989c4b",
+    "url": "/mint_bean_062220/static/js/main.cbff4a43.chunk.js"
   },
   {
     "revision": "711fb63f847fa0f37f0d",
     "url": "/mint_bean_062220/static/js/runtime-main.8377e0dd.js"
+  },
+  {
+    "revision": "38891da1a3bcd8c597de060790c0d6e1",
+    "url": "/mint_bean_062220/static/media/gray-and-black-tower-viewer-near-green-grass-field-and-beach-143714.38891da1.jpg"
   }
 ]);
