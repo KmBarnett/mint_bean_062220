@@ -1,15 +1,19 @@
-.SearchDisplay .repo-links {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-}
-
 .SearchDisplay .user-url {
   margin-left: 0.5rem;
 }
 
-.SearchDisplay h2 {
+.SearchDisplay-header h2 {
+  font-size: 2.5rem;
+}
+.SearchDisplay-header p {
   font-size: 1.5rem;
+}
+
+.SearchDisplay-header {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .SearchDisplay section {
@@ -23,4 +27,21 @@
 
 .SearchDisplay .repo-link {
   margin: 1%;
+}
+
+.repo-links {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  min-width: 350px;
+}
+
+.repo-link button {
+  background-color: rgb(156, 218, 240);
+  padding: 0.5rem;
+  border-radius: 10px;
 }

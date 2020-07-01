@@ -22,18 +22,16 @@ function SearchDisplay({user, repos}) {
 
   return (
     <article className="SearchDisplay">
-      <header className='SearchDisplay-header'>
-        <section>
+        <section className='SearchDisplay-header'>
           <h2>{user.login}</h2>
-          <p>Home Page:
-            <a className='user-url' href={user.html_url} target="_blank">
-              {user.html_url}
+          <section>
+            <a className='user-url' rel="noopener noreferrer" href={user.html_url} target="_blank">
+              {user.name ? <p data-tooltip="Click Here to Visit Profile">Profile Page: {user.name}</p> : <p>Profile Page:{user.html_url}</p>}
             </a>
-          </p>
+          </section>
           {user.email ? <p>Email: {user.email}</p> : <p>Email: N/A</p>}
           {user.hireable ? <p>Hireable: Yes</p> : <p>Hireable: No</p>}
         </section>
-      </header>
       <img src={user.avatar_url} alt='User Avatar' />
       <section className='repos'>
         <h3>Most Recent Repos:</h3>
